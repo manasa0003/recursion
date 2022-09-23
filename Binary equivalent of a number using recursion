@@ -1,0 +1,8 @@
+Write a python program takes a number and finds the binary equivalent of a number recursively.
+
+n=int(input())
+rem=" "
+while n>0:
+    rem+=str(n%2)
+    n=n//2
+print(rem[::-1])
