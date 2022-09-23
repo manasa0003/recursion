@@ -1,0 +1,17 @@
+Write a Python Program to find the fibonacci series using recursion.
+
+def fib(x):
+    b=1
+    a=0
+    print(a,b,end=" ")
+    for i in range(1,x-1):
+        c=a+b
+        a=b
+        b=c
+        print(c,end=" ")
+        
+d=int(input())
+fib(d)
+        
+    
+
